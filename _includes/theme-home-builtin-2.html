@@ -14,11 +14,11 @@
 
   <div class="column">
     <h2 class="header no-bottom">{{ site.data.bio.basics.name }}</h2>
-    <p class="">{{ site.data.bio.basics.label }}</p>
+    <p class=""><b><i>{{ site.data.bio.basics.label }}</i></b></p>
     <p class="">
       {{ site.data.bio.basics.summary }}
     </p>
-    <p>Interests:
+    <p><b>Interests:</b>
       {% for interest in site.data.bio.interests %}
         {{ interest.name }}{% if forloop.last != true %}, {% endif %}
       {% endfor %}
