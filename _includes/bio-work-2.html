@@ -30,7 +30,7 @@
     </b></p>
   </div>
 
-  <div style="padding-top: 0px;" class="sixteen wide column no-bottom">
+  <div style="padding-top: 0px;" class="twelve wide column no-bottom">
     <p class="ui no-bottom">{{ entry.summary }}</p>
     {% if entry.highlights %}
       <ul style="margin: 0px;">
@@ -40,6 +40,14 @@
       </ul>
     {% endif %}
   </div>
+
+  {% if entry.technologies %}
+    <div style="padding-top: 0px;" class="twelve wide column no-bottom">
+      <p class="ui no-bottom">Technologies</p>
+      <p class="ui no-bottom" style="padding-left: 25px;">{{ entry.technologies }}</p>
+    </div>
+  {% endif %}
+
 {% endfor %}
 
 {% endif %}

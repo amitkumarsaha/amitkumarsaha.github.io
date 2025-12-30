@@ -1,17 +1,17 @@
 {
   "basics": {
     "name": "Amit Kumar Saha",
-    "label": "Aspiring Entrepreneur, Enterprise Architect, Technology & Infomation Security Consultant",
+    "label": "Enterprise Architect | Product & Engineering Leader | TOGAF & Azure Certified | Banking & Finance | Healthcare Revenue Cycle | Telecom",
     "picture": "https://amitkumarsaha.github.io/images/amit-1.jpg",
     "email": "mail2amit.saha@yahoo.com",
     "phone": "",
     "website": "https://aksaha.dev",
-    "summary": "More than a decade and a half of experience in leadership, architecture, design, development, migration and support of large-scale, distributed, scalable, enterprise software systems",
+    "summary": "More than a decade and a half of experience in leadership, architecture, design, development, migration and support of large-scale, distributed, scalable, enterprise software systems for Financial Services, Healthcare and Telecom industry. <p>Proven track record of delivering complex solutions on time by bridging the gap between business and technology through effective communication and stakeholder management. Adept at driving all phases of the software development lifecycle while mentoring and leading high-performing teams to achieve organizational goals.</p>",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Dublin",
-      "countryCode": "Ireland",
+      "city": "",
+      "countryCode": "",
       "region": ""
     },
     "profiles": [
@@ -46,37 +46,80 @@
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
+      "name": "Technology Strategy & Architecture",
       "level": "",
       "keywords": [
-        "Java",
-        "Javascript",
-        "Python",
-        "Spring Boot",
-        "Angular",
-        "React.js",
-        "Node.js"
+        "Cloud-native systems", 
+        "Platform Modernisation", 
+        "API design"
       ]
     },
     {
-      "name": "Tools/Technologies/Skillset",
+      "name": "Product Leadership",
       "level": "",
       "keywords": [
-        "Linux",
-        "Git",
-        "Apache Kafka",
-        "Apache Camel",
-        "DevSecOps",
-        "Docker",
-        "Kubernetes",
-        "AWS",
-        "Azure",
-        "Security - PKI, TLS",
-        "OAuth2"
+        "Roadmap", 
+        "Prioritisation", 
+        "Lifecycle Ownership", 
+        "Stakeholder Alignment"
+      ]
+    },
+    {
+      "name": "DevOps & Engineering Excellence",
+      "level": "",
+      "keywords": [
+        "CI/CD", 
+        "Observability", 
+        "Build Optimisation", 
+        "SRE Principles"
+      ]
+    },
+    {
+      "name": "Security & Compliance",
+      "level": "",
+      "keywords": [
+        "OAuth2", 
+        "PKI", 
+        "GDPR", 
+        "HIPAA", 
+        "RBI Guidelines", 
+        "TLS/X.509"
+      ]
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "level": "",
+      "keywords": [
+        "Azure", 
+        "AWS", 
+        "Kubernetes", 
+        "Docker", 
+        "Hybrid Cloud", 
+        "DR/HA setups"
+      ]
+    },
+    {
+      "name": "People Leadership",
+      "level": "",
+      "keywords": [
+        "Team building", 
+        "Mentoring", 
+        "Cross-functional Collaboration", 
+        "Vendor Management"
       ]
     }
   ],
   "education": [
+    {
+      "institution": "Technological University of Shannon, Republic of Ireland",
+      "area": "Artificial Intelligence",
+      "studyType": "Master of Science",
+      "startDate": "2025",
+      "endDate": "2026",
+      "gpa": "",
+      "courses": [
+      ]
+    },
     {
       "institution": "West Bengal University of Technology, India",
       "area": "Computer Science and Engineering",
@@ -91,18 +134,23 @@
   "work": [
     {
       "company": "Ericsson R&D",
+      "company-secondary": "Ericsson Intelligent Automation Platform",
       "position": "Senior Engineer",
       "website": "https://www.ericsson.com",
       "startDate": "2022-August",
       "endDate": "Present",
-      "summary": "Cloud Native Engineer",
+      "summary": "Design Lead, Product Owner, Scrum Master",
       "highlights": [
-        "Designing and developing Ericsson Intelligent Automation Platform for Network Management",
-        "Implementing Cloud Native Arcitecture and Contract Driven Development approach to develop Open APIs",
-        "Working on creating a platform to enable internal and 3rd party developers to develop and manage lifecycle of apps"      ]
+        "Design owner for Ericsson’s Intelligent Automation Platform, enabling next-gen, autonomous network operations",
+        "Led development of the Flow Automation Framework, driving core platform functionality",
+        "Owned product lifecycle for Task Automation, aligning roadmap with global network strategy",
+        "Delivered secure, scalable APIs and services supporting global deployments and integrations"
+      ],
+      "technologies": "Java, Spring Boot, JavaScript, Python, Lit-html, Docker, Kubernetes, Rest API, Keycloak, JIRA, Confluence, Gerrit, Gitlab, Maven, Jenkins, Wildfly, Nginx, Camunda, Kafka, PostgreSQL DB, Linux"
     },
     {
       "company": "State Bank of India",
+      "company-secondary": "Retail Loans Maanagement System",
       "position": "Manager (Systems)",
       "website": "https://bank.sbi",
       "startDate": "2017-June",
@@ -114,10 +162,12 @@
         "Contributed towards team building and the professional development of peers by mentoring",
         "Ensured consistency in architecture and implementation, by evaluating and adopting best practices, tools and technologies for solution",
         "Built resiliency and scalability of the systems by designing and implementing OAuth2 based Identity and Access Management, Distributed Cache, Event Sourcing, Digital Document Execution with e-Signature, API Integration, Data encryption using AES and Digital signature among many others"
-      ]
+      ],
+      "technologies": "Java, Spring Boot, Angular, Rest API, Keycloak, Apache Camel, Spring Batch, JIRA, Gitlab, Kafka, Maven, Jenkins, Hybrid Cloud – IaaS, PaaS, WebSphere, Redhat BRMS, JWT, OAuth2, SAML, AIX, RHEL, Oracle PDB"
     },
     {
       "company": "Cognizant Technology Solutions",
+      "company-secondary": "CITI Bank CAS",
       "position": "Senior Associate",
       "website": "https://www.cognizant.com",
       "startDate": "2015-December",
@@ -128,21 +178,38 @@
         "Planed, designed, documented and coordinated the development and integration of systems",
         "Minimized boilerplate code by migrating the project from Spring 1.x to Spring Boot 2.x",
         "Reduced integration and build time by more than 70% by migrating to modern build tools and DevOps"
-      ]
+      ],
+      "technologies": "Java, Spring Boot, Spring Integration, SOAP, JIRA, CVS, Ant, Maven, JMS, Jenkins, WebSphere, Oracle DB"
     },
     {
-      "company": "Oracle Cerner",
-      "company-secondary": "",
+      "company": "Oracle Health",
+      "company-secondary": "Revenue Cycle Systems",
       "position": "Senior Software Engineer",
       "website": "https://www.cerner.com",
       "startDate": "2011-June",
       "endDate": "2015-December",
       "summary": "R&D Engineer",
       "highlights": [
-        "Designed and developed new features and changes",
-        "Worked on data structure of existing and new proprietor tools and frameworks for implementing changes",
-        "Implemented Electronic Health Record (EHR) and HL7 processing, Meaningful Use-I, Meaningful Use-II and Medical Necessity engine for Cerner Soarian Financials"
-      ]
+        "Developed enhancements in Medical Necessity Engine, cutting claim failure rates by ~40%",
+        "Implemented HL7-based Electronic Health Record (EHR) processing, enabling interoperability and Meaningful Use-I and Meaningful Use-II compliance",
+        "Improved revenue cycle automation, optimised patient access, guarantor inventory, claim validation, and settlement workflows in Soarian Financials.",
+        "Key contribution in migration from ICD 9 and adoption of ICD 10"
+      ],
+      "technologies": "Java, JavaScript, GWT, JNI, Spring, SOAP, JIRA, Confluence, Rational ClearCase, Gradle, Groovy, Jenkins, IIS, WebSphere, MS SQL Server"
+    },
+    {
+      "company": "Nucleus Software",
+      "company-secondary": "FinnOne Loan Management System",
+      "position": "Software Engineer",
+      "website": "https://www.nucleussoftware.com",
+      "startDate": "2010-September",
+      "endDate": "2011-June",
+      "summary": "Development, Delivery and Support Engineer",
+      "highlights": [
+        "Managed full lifecycle implementation and ongoing support of the FinnOne CAS system for multiple key clients, ensuring successful deployment and operational continuity",
+        "Spearheaded fullstack development for critical financial application features and workflows within the FinnOne suite, enhancing loans origination, claims, and payment processes"
+      ],
+      "technologies": "Java, Struts, EJP, JSP, JSTL, JavaScript, SOAP, Apache MQ Server, Ant, SOAP, Rational ClearCase, Web Logic, Oracle DB"
     }
   ],
   "certification": [
